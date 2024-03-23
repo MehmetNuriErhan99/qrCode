@@ -6,7 +6,7 @@ from pyqrcode import QRCode
 def qr_kodu_olustur():
     url = url_girdi.get()
 
-    #tuncay.lore
+   #MehmetNuriErhan 
 
     if url:
         qr_url = pyqrcode.create(url)
@@ -36,3 +36,4 @@ durum_etiketi.grid(row=2,column=0,columnspan=2,padx=10,pady=10)
 
 
 uygulama_pencere.mainloop()
+
